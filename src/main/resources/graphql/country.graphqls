@@ -1,0 +1,12 @@
+type Country {
+    country_id:ID!
+    country:String
+    last_update:Date
+}
+
+extend type Query {
+    country(country_id:ID!):Country
+    countries:[Country]!
+}
+
+extend type Mutation {}
