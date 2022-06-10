@@ -152,7 +152,7 @@ Para acessar os endpoints é necessário autenticar via Keycloak. Uma vez config
 <br>
 
 #### Acessando o console GraphiQL
-No browser, acesse http://localhost:8082/graphiql
+No browser, acesse http://localhost:8085/graphiql
 
 ![](/src/main/resources/docs/img/graphiql.png)
 <br>
