@@ -1,0 +1,18 @@
+type City {
+    city_id:ID!
+    city:String
+    last_update:Date
+}
+
+input CityInput {
+    city_id:ID!
+    city:String
+    last_update:Date
+}
+
+extend type Query {
+    city(city_id:ID!):City
+    cities:[City]!
+}
+
+extend type Mutation {}
